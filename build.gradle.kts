@@ -3,7 +3,7 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 import com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar
 
 plugins {
-    kotlin("jvm") version "1.3.71"
+    kotlin("jvm") version "1.6.10"
     `maven-publish`
     id("io.spring.dependency-management") version ("1.0.9.RELEASE")
     id("com.github.johnrengelman.shadow") version ("6.0.0")
@@ -36,7 +36,7 @@ repositories {
 //}
 
 dependencies {
-    api("org.jetbrains.kotlin:kotlin-stdlib:1.3.71")
+    api("org.jetbrains.kotlin:kotlin-stdlib:1.6.10")
     api("com.amazonaws:aws-lambda-java-core:1.2.1")
     api("com.amazonaws:aws-lambda-java-log4j2:1.5.1")
     api("org.slf4j:slf4j-simple:1.7.30")
